@@ -5,7 +5,7 @@ alias www='cd /mnt/d/dev/projects/www'
 
 #Arbit aliases
 alias cl='clear'
-alias cd.='cd ..'
+alias ..='cd ..'
 
 # Git
 alias ga='git add'
@@ -26,7 +26,7 @@ alias gf='git reflog'
 
 # MariaDB
 alias mdbstart='sudo service mysql start'
-alias mdstop='sudo service mysql stop'
+alias mdbstop='sudo service mysql stop'
 
 # Apache
 alias httpdstart='sudo service apache2 start'
@@ -39,6 +39,6 @@ alias stopserver="mdbstop; httpdstop"
 
 # System
 alias update='sudo apt-get update'
-alias upgrade='sudo apt-get upgrade'
-alias autorm='sudo apt-get autoremove'
+alias upgrade='sudo apt-get dist-upgrade'
+alias autrm='sudo apt-get autoremove'
 alias install='sudo apt-get install'
